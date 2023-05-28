@@ -1,48 +1,26 @@
 {
-  "name": "levn",
-  "version": "0.4.1",
-  "author": "George Zahariev <z@georgezahariev.com>",
-  "description": "Light ECMAScript (JavaScript) Value Notation - human written, concise, typed, flexible",
-  "homepage": "https://github.com/gkz/levn",
-  "keywords": [
-    "levn",
-    "light",
-    "ecmascript",
-    "value",
-    "notation",
-    "json",
-    "typed",
-    "human",
-    "concise",
-    "typed",
-    "flexible"
-  ],
-  "files": [
-    "lib",
-    "README.md",
-    "LICENSE"
-  ],
-  "main": "./lib/",
-  "bugs": "https://github.com/gkz/levn/issues",
-  "license": "MIT",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/gkz/levn.git"
-  },
+  "name": "my-dashboard",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13.4.4",
-    "prelude-ls": "^1.2.1",
-    "type-check": "~0.4.0"
-  },
-  "devDependencies": {
-    "livescript": "^1.6.0",
-    "mocha": "^10.2.0"
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "next": "13.4.4",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
   }
 }
