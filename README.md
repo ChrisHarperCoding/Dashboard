@@ -1,2 +1,2 @@
 # Dashboard
- Dashboard-Demo
+ Dashboard
